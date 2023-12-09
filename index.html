@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assest/numbersorteio.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Numero Mágico</title>
+  </head>
+  <body>
+    <img src="./assest/devsorteio.png" />
+    <h2>Sortear um Número</h2>
+
+    <div>
+      <input placeholder="entre" class="input-min" type="number" />
+      <input placeholder="e" class="input-max" type="number" />
+    </div>
+    <button onclick="generateNumber()">Sortear</button>
+    <p class="result-text">O Número Sorteado é</p>
+    <input id="result" class="result" type="text" disabled />
+  </body>
+  <script src="./script.js"></script>
+</html>
