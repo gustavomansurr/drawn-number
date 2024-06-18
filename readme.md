@@ -1,3 +1,5 @@
+![Imagem do projeto](assets/readme.png)
+
 ### Descrição
 Este projeto consiste em uma página web simples que permite ao usuário sortear um número aleatório dentro de um intervalo definido por ele. A aplicação é construída utilizando HTML, CSS e JavaScript básico.
 
